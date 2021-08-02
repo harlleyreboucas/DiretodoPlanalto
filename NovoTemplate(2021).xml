@@ -1897,7 +1897,173 @@ document.write("<script src=\"/feeds/posts/default?orderby=published&alt=json-in
                         </b:section>
                         <div id='sticky-sidebar'>
 <b:if cond='data:view.isHomepage'>
-<b:section class='sidebar-ads1' id='sidebar-ads1' maxwidgets='' showaddelement='yes'/>
+<b:section class='sidebar-ads1' id='sidebar-ads1' maxwidgets='' showaddelement='yes'>
+  <b:widget id='HTML3' locked='false' title='Colunistas' type='HTML' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;script type=&#39;text/javascript&#39;&gt;
+function recentpostslist(json) {
+ document.write(&#39;&lt;ul class=&quot;quadrado&quot;&gt;&#39;);
+ for (var i = 0; i &lt; json.feed.entry.length; i++)
+ {
+    for (var j = 0; j &lt; json.feed.entry[i].link.length; j++) {
+      if (json.feed.entry[i].link[j].rel == &#39;alternate&#39;) {
+        break;
+      }
+    }
+var entryUrl = &quot;&#39;&quot; + json.feed.entry[i].link[j].href + &quot;&#39;&quot;;//bs
+var entryTitle = json.feed.entry[i].title.$t;
+var item = &quot;&lt;li&gt;&quot; + &quot;&lt;a href=&quot;+ entryUrl + &#39;&quot; target=&quot;_blank&quot;&gt;&#39; + entryTitle + &quot;&lt;/a&gt; &lt;/li&gt;&quot;;
+ document.write(item);
+ }
+ document.write(&#39;&lt;/ul&gt;&#39;);
+ }
+&lt;/script&gt;
+
+
+
+&lt;style type=&quot;text/css&quot;&gt;
+.circle-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 109px;
+}
+
+#obs-icon-quotes {
+    color: #57A0D7;
+    fill: #57A0D7;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: -28px;
+    float: left;
+}
+
+.image-container {
+    width: 150px;
+    height: 150px;
+    background-color: #fed136;
+    color: #fff;
+    border-radius: 100%;
+    border: 20px solid #f1f1f1;
+    text-align: center;
+}
+
+
+ul.quadrado {
+    max-width: 95%;
+    margin-top: 5px;
+    margin-left: 0px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--body-font);
+    line-height: 20px;
+    margin-bottom: 15px;
+    list-style-type: none;
+
+}
+        
+ul.quadrado a {
+}
+
+hr.style1 {
+    width: 80%;
+    height: 3px;
+    border: 0;
+    margin: 10px;
+    background: #00cdb2;
+    margin-left: 35px;
+}
+
+&lt;/style&gt;
+
+
+        
+        
+
+&lt;center&gt;
+&lt;div class=&quot;image-container&quot;&gt;
+  &lt;a href=&quot;/search/label/Mariano%20Maciel&quot;&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-G1niZuAiY94/X1xPfCC_-RI/AAAAAAAA5I0/vhZd8kepXCIAN1HHwefw9bGD0xJY_IF5gCLcBGAsYHQ/s0/marianomaciel.png&quot; class=&quot;circle-img&quot;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+
+
+
+&lt;svg id=&quot;obs-icon-quotes&quot; viewbox=&quot;0 0 64 51&quot;&gt;&lt;path d=&quot;M17.622 0L30.79 7.649c-5.552 8.779-8.424 17.686-8.618 26.723v16.17H0V36.018c0-6.067 1.694-12.538 5.083-19.413C8.472 9.731 12.652 4.195 17.622 0zm33.21 0L64 7.649c-5.551 8.779-8.424 17.686-8.617 26.723v16.17H33.21V36.018c0-6.067 1.695-12.538 5.083-19.413C41.683 9.731 45.862 4.195 50.833 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+&lt;center&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;script src=&quot;/feeds/posts/summary/-/Mariano%20Maciel?max-results=1&amp;alt=json-in-script&amp;callback=recentpostslist&quot;&gt;&lt;/script&gt;
+Mariano Maciel
+&lt;/span&gt;&lt;br /&gt;&lt;/center&gt;
+
+&lt;hr class=&quot;style1&quot; /&gt;
+
+
+
+&lt;br /&gt;
+
+
+
+
+
+
+
+
+&lt;br /&gt;
+
+
+&lt;center&gt;
+&lt;div class=&quot;image-container&quot;&gt;
+  &lt;a href=&quot;/search/label/Katiussi Melo&quot;&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-JFybrGLiYK8/YIX-nJ_bo8I/AAAAAAAA8kQ/-8NK48bH5AQ9fYTe-hvsvdQsMeoDoSWOgCLcBGAsYHQ/s400/Captura%2Bde%2BTela%2B2021-04-25%2Ba%25CC%2580s%2B19.38.31.png&quot; class=&quot;circle-img&quot;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+
+
+
+&lt;svg id=&quot;obs-icon-quotes&quot; viewbox=&quot;0 0 64 51&quot;&gt;&lt;path d=&quot;M17.622 0L30.79 7.649c-5.552 8.779-8.424 17.686-8.618 26.723v16.17H0V36.018c0-6.067 1.694-12.538 5.083-19.413C8.472 9.731 12.652 4.195 17.622 0zm33.21 0L64 7.649c-5.551 8.779-8.424 17.686-8.617 26.723v16.17H33.21V36.018c0-6.067 1.695-12.538 5.083-19.413C41.683 9.731 45.862 4.195 50.833 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+&lt;center&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;script src=&quot;/feeds/posts/summary/-/Katiussi Melo?max-results=1&amp;alt=json-in-script&amp;callback=recentpostslist&quot;&gt;&lt;/script&gt;
+Katiussi Melo - Cultura em Foco
+&lt;/span&gt;&lt;br /&gt;&lt;/center&gt;
+
+&lt;hr class=&quot;style1&quot; /&gt;
+
+
+&lt;br /&gt;
+
+
+&lt;center&gt;
+&lt;div class=&quot;image-container&quot;&gt;
+  &lt;a href=&quot;/search/label/Márcio Accioly&quot;&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-_OfhRMixW3Q/X1xTds01s_I/AAAAAAAA5JY/EtAuLE4pP-Mn39ELgVvFhmrfNvSMjJeTACLcBGAsYHQ/s0/marcioacioly.png&quot; class=&quot;circle-img&quot;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+
+
+
+&lt;svg id=&quot;obs-icon-quotes&quot; viewbox=&quot;0 0 64 51&quot;&gt;&lt;path d=&quot;M17.622 0L30.79 7.649c-5.552 8.779-8.424 17.686-8.618 26.723v16.17H0V36.018c0-6.067 1.694-12.538 5.083-19.413C8.472 9.731 12.652 4.195 17.622 0zm33.21 0L64 7.649c-5.551 8.779-8.424 17.686-8.617 26.723v16.17H33.21V36.018c0-6.067 1.695-12.538 5.083-19.413C41.683 9.731 45.862 4.195 50.833 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+&lt;center&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;script src=&quot;/feeds/posts/summary/-/Márcio Accioly?max-results=1&amp;alt=json-in-script&amp;callback=recentpostslist&quot;&gt;&lt;/script&gt;&lt;br /&gt;
+Márcio Accioly
+&lt;/span&gt;&lt;br /&gt;&lt;/center&gt;
+
+&lt;hr class=&quot;style1&quot; /&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+         <b:if cond='data:title != &quot;&quot;'><h2><a href='/p/trending.html'><span><data:title/></span><div class='h2border-popular'/></a></h2></b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section>
 <b:section class='popular-sidebar2' id='popular-sidebar2' maxwidgets='1' showaddelement='no'>
   <b:widget id='PopularPosts2' locked='false' title='Tendências' type='PopularPosts' version='1'>
     <b:widget-settings>
