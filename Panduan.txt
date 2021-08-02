@@ -1,0 +1,28 @@
+1. Logo Header. Klik Edit, hapus gambar default, Pilih File (upload gambar logo website Anda) dan klik tombol Simpan.
+2. Jelajahi. Klik Edit, Label yg Dipilih, edit. Pilih label apasaja yang ingin ditampilkan dan klik tombol Simpan.
+3. Media Sosial. Klik Edit, Edit pada nama media sosial yang tertera. Lalu masukkan link URL, save dan klik tombol Simpan.
+4. About Us. Klik Edit, Edit pada nama link yang tertera. Lalu masukkan link URL, save dan klik tombol Simpan.
+5. Menu Atas. Klik Edit, Label yg Dipilih, edit. Pilih label apasaja yang ingin ditampilkan dan klik tombol Simpan.
+6. Top Ads. Klik Edit, kemudian tempelkan kode iklan di dalam box konten dan klik tombol Simpan.
+7. Featured Slider. Ini adalah widget untuk menampilkan postingan menurut label. Klik Edit, silahkan ganti judul sesuai yang diinginkan. Penting: yang diisi pada box konten adalah nama label sesuai dengan yang ada di blog. dan klik tombol Simpan.
+8. Popular Category. Klik Edit, Label yg Dipilih, edit. Pilih label apasaja yang ingin ditampilkan dan klik tombol Simpan.
+9. Center Topik 1. Ini adalah widget untuk menampilkan postingan menurut label. Klik Edit, silahkan ganti judul sesuai yang diinginkan. Penting: yang diisi pada box konten adalah nama label sesuai dengan yang ada di blog. dan klik tombol Simpan.
+10. Center Topik 2. Ini adalah widget untuk menampilkan label video. Klik Edit, silahkan ganti judul sesuai yang diinginkan. Penting: yang diisi pada box konten adalah nama label sesuai dengan yang ada di blog. dan klik tombol Simpan.
+11. Center Ads 1. Klik Edit, kemudian tempelkan kode iklan di dalam box konten dan klik tombol Simpan.
+12. Center Topik 3. Ini adalah widget untuk menampilkan postingan menurut label. Klik Edit, silahkan ganti judul sesuai yang diinginkan. Penting: yang diisi pada box konten adalah nama label sesuai dengan yang ada di blog. dan klik tombol Simpan.
+13. Center Ads 2. Klik Edit, kemudian tempelkan kode iklan di dalam box konten dan klik tombol Simpan.
+14. Center Topik 4. Ini adalah widget untuk menampilkan postingan menurut label. Klik Edit, silahkan ganti judul sesuai yang diinginkan. Penting: yang diisi pada box konten adalah nama label sesuai dengan yang ada di blog. dan klik tombol Simpan.
+15. Center Ads 3. Klik Edit, kemudian tempelkan kode iklan di dalam box konten dan klik tombol Simpan.
+16. Main. Biarkan saja
+17. Sidebar Ads 1. Klik Edit, kemudian tempelkan kode iklan di dalam box konten dan klik tombol Simpan.
+18. Sidebar Ads 2. Klik Edit, kemudian tempelkan kode iklan di dalam box konten dan klik tombol Simpan.
+19. Bottom Ads. Klik Edit, kemudian tempelkan kode iklan di dalam box konten dan klik tombol Simpan.
+20. Quick Links. Klik Edit, Label yg Dipilih, edit. Pilih label apasaja yang ingin ditampilkan dan klik tombol Simpan.
+21. Gadget Gambar. Klik Edit, hapus gambar default, Pilih File (upload gambar logo website Anda) dan klik tombol Simpan.
+22. Media Sosial. Klik Edit, ganti link url dan klik tombol Simpan.
+23. About Us. Klik Edit, Edit pada nama link yang tertera. Lalu masukkan link URL, save dan klik tombol Simpan.
+
+Iklan dalam postingan :
+1. CTRL F dalam Edit HTML kemudian cari kode ini : <!-- Iklan Tengah Postingan --> Masukkan kode iklan tepat di bawah tulisan tsb.
+2. CTRL F dalam Edit HTML kemudian cari kode ini : <!-- Iklan Bawah Postingan 1 --> Masukkan kode iklan tepat di bawah tulisan tsb.
+3. CTRL F dalam Edit HTML kemudian cari kode ini : <!-- Iklan Bawah Postingan 2 --> Masukkan kode iklan tepat di bawah tulisan tsb.
