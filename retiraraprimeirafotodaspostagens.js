@@ -1,2 +1,2 @@
-  var firstImg = document.querySelector('.post-body img');
+  var firstImg = document.querySelector('.separator img');
         firstImg.style.display='none';
