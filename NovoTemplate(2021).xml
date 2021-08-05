@@ -4,14 +4,13 @@
 
 <head>
 
-<script> //<![CDATA[
+<!--<script> //<![CDATA[
   (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-xxxxxxxxxxxxxxxx",
+    google_ad_client: "ca-pub-7407265183219470",
     enable_page_level_ads: true,
     overlays: {bottom: true}
   });
-//]]> </script>
-
+//]]> </script>-->
 
   
 
@@ -195,6 +194,7 @@ document.createElement("abbr");document.createElement("time")}))
 
 <script> jQuery(document).ready(function(){$(&quot;abbr.timeago&quot;).timeago()}); </script>
   
+ 
 
 
 </head>
@@ -318,7 +318,7 @@ var months=['de Janeiro de','de Fevereiro de ','de Março de','de Abril de','de 
   <b:if cond='data:title != &quot;&quot;'>
     <h2><data:title/></h2>
   </b:if>
-<div class='hide-show'><span id='tombol_show'>Kategori</span></div>
+<div class='hide-show'><span id='tombol_show'>Editoriais</span></div>
 <div id='box' style='display: none;'>
   <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
     <b:if cond='data:display == &quot;list&quot;'>
@@ -383,8 +383,8 @@ var months=['de Janeiro de','de Fevereiro de ','de Março de','de Abril de','de 
                 <b:widget id='LinkList1' locked='false' title='Sobre' type='LinkList' version='1'>
                   <b:widget-settings>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                    <b:widget-setting name='text-0'>About</b:widget-setting>
-                    <b:widget-setting name='link-0'>/p/about.html</b:widget-setting>
+                    <b:widget-setting name='text-0'>Painel</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.blogger.com/blog/posts/3243864037645891092</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
 
@@ -408,7 +408,7 @@ var months=['de Janeiro de','de Fevereiro de ','de Março de','de Abril de','de 
     <b:widget-settings>
       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
       <b:widget-setting name='display'>LIST</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'>Acre em Brasília,Brasil,Colunas,Concursos,Destaques,Economia,Esportes,Mundo,Opinião,Política,Vídeos</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'>Acre em Brasília,Brasil,Concursos,Destaques,Economia,Esportes,Mundo,Opinião,Política,Vídeos</b:widget-setting>
       <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
       <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
     </b:widget-settings>
@@ -1378,10 +1378,10 @@ document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/<data:content/
 
 <div expr:id='&quot;post1&quot; + data:post.id'/>
 
-<div class='iklan-tengah-postingan'>
-<!-- Iklan Tengah Postingan -->
+<!--<div class='iklan-tengah-postingan'>-->
+<!-- Código do anunicio -->
 
-</div>
+<!--</div>-->
 
 <b:if cond='data:blog.postImageUrl'>
 <img expr:src='data:blog.postImageUrl' style='display:none;'/>
@@ -1453,6 +1453,26 @@ labels=labels.replace(/<\/a>/g,'</em>').replace(/<a(\s[^>]*)?>/g,'<em>');$this.h
 <script>//<![CDATA[
 var ry='<h6><span>Recomendamos:</span><div class="h2border-img"></div></h6>',rn="<h6>Tidak ada Rekomendasi</h6>",rcomment="comments",rdisable="disable comments",commentYN="no",dw="",titles=[],labels=[],titlesNum=0,urls=[],timeR=[],thumb=[],commentsNum=[],comments=[];function related_results_labels(e){for(var t=0;t<e.feed.entry.length;t++){var l=e.feed.entry[t];titles[titlesNum]=l.title.$t,labels[titlesNum]=l.category;for(var s=0;s<l.link.length;s++)if(commentsNum[titlesNum]="thr$total"in l?l.thr$total.$t+" "+rcomment:rdisable,"alternate"==l.link[s].rel){urls[titlesNum]=l.link[s].href,timeR[titlesNum]=l.published.$t,thumb[titlesNum]="media$thumbnail"in l?l.media$thumbnail.url:"https://1.bp.blogspot.com/-w3FKU2gysP8/XzJYl8eo2ZI/AAAAAAAAEfc/rgXY8BtLb0o9Ooh1uKrZVmx7wbHkASzqACLcBGAsYHQ/s1600/noimage.jpg",titlesNum++;break}}}function removeRelatedDuplicates(){for(var e=[],t=[],l=[],s=[],i=[],r=[],n=0;n<urls.length;n++)contains(e,urls[n])||(e.length+=1,e[e.length-1]=urls[n],t.length+=1,t[t.length-1]=titles[n],l.length+=1,l[l.length-1]=labels[n],s.length+=1,s[s.length-1]=timeR[n],i.length+=1,i[i.length-1]=thumb[n],r.length+=1,r[r.length-1]=commentsNum[n]);urls=e,titles=t,labels=l,timeR=s,thumb=i,commentsNum=r}function contains(e,t){for(var l=0;l<e.length;l++)if(e[l]==t)return!0;return!1}function printRelatedLabels(e){var t=e.indexOf("?m=0");-1!=t&&(e=e.replace(/\?m=0/g,""));for(var l=0;l<urls.length;l++)urls[l]==e&&(urls.splice(l,1),titles.splice(l,1),labels.splice(l,1),timeR.splice(l,1),thumb.splice(l,1),commentsNum.splice(l,1));var s=Math.floor((titles.length-1)*Math.random()),l=0;if(0==titles.length)dw+=rn;else{for(dw+=ry,dw+='<div class="clear"/></div><ul>';l<titles.length&&l<20&&l<maxresults;){var i=timeR[s].split("T")[0].split("-");-1!=t&&(urls[s]=urls[s]+"?m=0"),comments[s]="yes"==commentYN?" - "+commentsNum[s]:"",dw+='<li class="related-post"><a href="'+urls[s]+'" rel="dofollow"></a><div class="related-body"><div class="related-tag1">'+(labels[s]||[]).map(function(e){return"<span>"+e.term+"</span>"}).join(" ")+'</div><div class="related-post-title"><a href="'+urls[s]+'" rel="dofollow">'+titles[s]+'</a></div><time datetime="'+timeR[s]+'">'+i[2]+" "+["","Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][+i[1]]+" "+i[0]+"</time></div></li></div>",s<titles.length-1?s++:s=0,l++}dw+="</ul>"}urls.splice(0,urls.length),titles.splice(0,titles.length),document.getElementById("related-posts").innerHTML=dw}
 //]]></script>
+  
+  
+  
+  
+  
+ <b:if cond='data:post.labels'> 
+   <b:loop values='data:post.labels' var='label'> 
+     <b:if cond='data:label.name != &quot;Vídeos&quot;'> 
+    <script>
+//<![CDATA[
+$(function() {
+   $(".post-body img:nth-child(2)").remove();
+      $(".post-body > img:nth-child(2)").remove();
+                      });
+//]]>
+</script>
+       </b:if>
+   </b:loop>
+  </b:if>
+
 
 <b:loop values='data:post.labels' var='label'>
 <script expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=json-in-script&amp;callback=related_results_labels&quot;'/>
@@ -2489,7 +2509,14 @@ window.onscroll = function() {
    });
    </script>
   
+
+  
   <script src='https://harlleyreboucas.github.io/DiretodoPlanalto/popularposts.js' type='text/javascript'/>
+  
+
+
+
+  
   
 &lt;!--</body>--&gt;&lt;/body&gt;
   
