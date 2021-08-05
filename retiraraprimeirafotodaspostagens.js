@@ -1,3 +1,3 @@
-  var firstImg = document.querySelector('.separator img:nth-child(2)');
+  var firstImg = document.querySelector('.separator:nth-child(2)');
         firstImg.style.display='none';
 
